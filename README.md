@@ -35,25 +35,25 @@
       <td align="center"width="100"> <button name="button" value="OK" type="button">13:00</button></td>
       <td align="center"width="100"> <button name="button" value="OK" type="button">16:00</button></td>
     </tr>
-     <tr>
+    <tr>
       <td align="center" width="150">Мягмар</td>
       <td align="center" width="100"><button name="button" value="OK" type="button">09:00</button></td>
       <td align="center"width="100"> <button name="button" value="OK" type="button">12:00</button></td>
       <td align="center"width="100"> <button name="button" value="OK" type="button">15:00</button></td>
     </tr>
-     <tr>
+    <tr>
       <td align="center" width="150">Лхагва</td>
       <td align="center" width="100"><button name="button" value="OK" type="button">11:00</button></td>
       <td align="center"width="100"> <button name="button" value="OK" type="button">14:00</button></td>
       <td align="center"width="100"> <button name="button" value="OK" type="button">16:00</button></td>
     </tr>
-     <tr>
+    <tr>
       <td align="center" width="150">Пүрэв</td>
       <td align="center" width="100"><button name="button" value="OK" type="button">09:00</button></td>
       <td align="center"width="100"> <button name="button" value="OK" type="button">12:00</button></td>
       <td align="center"width="100"> <button name="button" value="OK" type="button">15:00</button></td>
     </tr>
-     <tr>
+    <tr>
       <td align="center" width="150">Баасан</td>
       <td align="center" width="100"><button name="button" value="OK" type="button">14:00</button></td>
       <td align="center"width="100"> <button name="button" value="OK" type="button">16:00</button></td>
