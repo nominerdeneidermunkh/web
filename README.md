@@ -2,12 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <title>Кино дэлгэрэнгүй</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-compatible" content="IE=edge">
-  </head>
+</head>
 <body>
 <div class="main">
     <h2>Venom: Let There Be Carnage</h2>
@@ -25,8 +24,8 @@
       <img src="star.png">
       <img src="star.png">
       <img src="star.png">
-      <img src="star.png"></br>
-      <p> 2D/Танхим3</p>
+      <img src="star.png">
+      <p> 2D/Танхим3 </p>
 
 <table border="1" width="700" height="800">
 
@@ -60,24 +59,21 @@
       <td align="center"width="100"> <button name="button" value="OK" type="button">16:00</button></td>
       <td align="center"width="100"> <button name="button" value="OK" type="button">20:00</button></td>
     </tr>
-
-    
-  </table>
+ </table>
 
   </div>
   <div>
     <form >
       <button name="button" value="OK" type="button">Буцах</button></td>
-    <button name="button" value="OK" type="button">Захиалах</button></td>
+      <button name="button" value="OK" type="button">Захиалах</button></td>
    </form>
   </div>
-  <div>
+<div>
     <h1>Манай дэлгцэнээ</h1></br>
      <img width="300" src="007.jpg" >
      <img width="300" src="F9.jpg" >
      <img width="300" src="dune.jpg" >
 </div> 
-<footer id="content">
   
         <h3>Холбоо барих:<h3>
      
@@ -92,6 +88,5 @@
      <img src="call.png"> <p> Утас +976-7510-0000</p>
 
   </div>
-</footer>
 </body>
 </html>
