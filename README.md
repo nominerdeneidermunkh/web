@@ -15,7 +15,7 @@
 </div>
 <div>
       <h3>Дэлгэрэнгүй мэдээлэл</h3>
-      <p>Tom Hardy returns to the big screen as the lethal protector Venom, one of MARVEL's greatest and most complex characters. Directed by Andy Serkis, the film also stars Michelle Williams, Naomie Harris and Woody Harrelson, in the role of the villain Cletus Kasady/Carnage.</p></br>
+      <p>Tom Hardy returns to the big screen as the lethal protector Venom, one of MARVEL's greatest and most complex characters. Directed by Andy Serkis, the film also stars Michelle Williams, Naomie Harris and Woody Harrelson, in the role of the villain Cletus Kasady/Carnage.</p>
       <p>Үргэлжлэх хугацаа:   93 мин  Насны хязгаар:   PG
        Киноны төрөл:  Action
        Дүрүүдэд: Tom Hardy,  Woody Harrelson,  Michelle Williams
