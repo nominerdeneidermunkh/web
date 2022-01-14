@@ -1,0 +1,52 @@
+
+
+.header{
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    
+}
+.header .main-menu{
+    list-style: none;
+    padding-top: 20px;
+}
+.header .main-menu > li {
+    float: left;
+    margin-left: 30px;
+}
+.header .main-menu > li a {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:#2D3B6C; ;
+    font-size: 18px;
+}
+.header .main-menu > li a:hover{
+    color:F8F046; 
+    text-decoration: none;
+}
+.header .logo{
+ position: absolute;
+width: 100px;
+height: 120px;
+}
+.header .header-icon {
+    margin-left: 10px;
+    padding-left: 0px;
+    padding-top: 20px;
+    
+}
+.header .header-icon{
+    list-style: none;
+    padding-top: 20px;
+}
+.header .header-icon > li{
+    float: left;
+    margin-left: 15px;
+    padding-top: 0px;
+    width: 30px;
+     height: 35px;
+    left: 15px;
+    top: 15px;
+}
+    
+
