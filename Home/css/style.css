@@ -59,17 +59,14 @@
  float: left;
  margin-left: 3px;
 }
-.hr { 
+.hr {  
+ 
     border: 3px solid #00A1D5;
     transform: rotate(0.14deg);
     background-color:rgba(0, 161, 212, 1);
-    width: 0px;
+    width: autopx;
     height: 3px;
-    @media (min-width: 640px) {
-        
-          padding-left: 30px;
-          padding-right: 30px;
-        }
+  
       
  } 
 
