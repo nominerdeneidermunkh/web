@@ -11,60 +11,60 @@
     
     <title>Танилцуулга</title>
 </head>
+
 <body>
     <!--header-->
-    <div class="header">
-  
-        
+    <div class="header" id="">
+        <a id="js-scroll-trigger" href="header" uk-scroll></a>
     <div class="uk-container">
-        <div class="uk-width-auto">
+        <div class="uk-flex">
             <div class="logo">
-                <img src = "logo.svg" alt="#"/>
+                <img src="logo.svg" alt="#">
             </div>
-        <div class="uk-width-expand">
-            <div class="uk-card uk-card-default uk-card-body">
+            <!--menu-->
+            <div class="uk-width-expand uk-flex uk-flex-right">
                 <ul class="main-menu">
+                    
                     <li><a href="#">Нүүр</a></li>
                     <li><a href="#">Танилцуулга</a></li>
                     <li><a href="#">Мэдээ</a></li>
+                    <li><a href="#">Тусламж</a></li>
                     <li><a href="#">Тусламж</a></li> 
-                </ul>
+                 </ul>    
             </div>
-        </div>
-            <div class=" uk-width-1-6"></div>
-              <div class="uk-navbar-right">
-                      <ul class="header-icon">
-                                <li><a href="#"><img src="icon/fb.svg" alt="#" ></a></li>
-                                <li><a href="#"><img src="icon/inst.svg" alt="#" ></a></li>
-                                <li><a href="#"><img src="icon/mail.svg" alt="#" ></a></li>
-                            </ul>
-                         </div>
+
+            <!--icon-->
+                       <div class=" uk-width-1-6"></div>
+                       <ul class="header-icon">
+                        <li><a href="#"  ><img src="icon/fb.svg" alt=""></a></li>
+                        <li><a href="#"  ><img src="icon/inst.svg" alt=""></a></li>
+                        <li> <a href="#"><img src="icon/mail.svg" alt=""></a></li>
+                       </ul>  
                       </div>
-                     <div class="uk-container">
+                      </div>
+                        <div class="uk-container">
+                         <div>
                           <hr class="hr">
-                      </div>  
-                      <div class="uk-navbar-right">
+                      </div> 
+                      <!--search--> 
+                      <div class="uk-navbar-right uk-flex-right">
 
-                        <div class="uk-navbar-right">
-
-                            <div class="uk-navbar-right">
-
-                                <div>
-                                    <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
-                                    <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
-                                        <form class="uk-search uk-search-navbar uk-width-1-1">
-                                            <input class="uk-search-input" type="search" placeholder="Search" autofocus>
-                                        </form>
-                                    </div>
-                                </div>
-                        
+                        <div>
+                            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+                                <form class="uk-search uk-search-navbar uk-width-1-1">
+                                    <input class="uk-search-input" type="search" placeholder="Search" autofocus>
+                                </form>
                             </div>
+                        </div>
+                
+                    </div>
+                  
+                
+                  
                     
-                        </div>            
-       </div>
-       </div>
-       </div>
-      </div>
+                             
+       
       <!--header-->
       <!--body-->
      
@@ -82,22 +82,13 @@
                 </p>
             </div>
 
-        </div>
-        <div class="uk-child-width-expand uk-grid-small uk-text-center" uk-grid>
-            <div>
-                <div class="uk-card uk-card-default uk-card-body">Expand</div>
-            </div>
-            <div class="uk-width-1-3">
-                <div class="uk-card uk-card-default uk-card-body">1-3</div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-card-body">Expand</div>
-            </div>
-            
+        </div>       
         </div>
         <div class="uk-container">
                           <hr class="hr">
-                      </div>  
+                      </div> 
+                      
+                      
         <div class="ded">
             <div class="uk-container">
                    <div>
@@ -106,27 +97,97 @@
                         Монгол орон зэрлэг амьтан, ургамлын өлгий нутаг байж, хүн ард нь байгальтайгаа шүтэлцэн үеийн үед сэтгэл хангалуун амьдрах ирээдүйг бүтээхэд оршино.
                        </p>
                    </div>
-                   <div class="back2">
-                    <a href="#"><img src="tan/back2.svg" alt="# "</a>
-                   </div>
-                   <div class="back3">
-                    <a href="#"><img src="tan/back3.svg" alt="# "</a>
-                   </div>
-                   <div>
+
+                    <div>
+            <!--slide-->
+               
+            <div uk-slideshow="animation: push">
+
+              <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+          
+                  <ul class="uk-slideshow-items">
+                      <li>
+                          <img src="tan/back2.svg" alt="" uk-cover>
+                      </li>
+                      <li>
+                          <img src="tan/back3.svg" alt="" uk-cover>
+                      </li>
+                      <li>
+                          <img src="tan/back4.svg" alt="" uk-cover>
+                      </li>
+                      <li>
+                        <img src="tan/back5.svg" alt="" uk-cover>
+                    </li>
+                  </ul>
+          
+                  <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous" style="color: black;"></a>
+                  <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next" style="color: black;"></a>
+          
+              </div>
+          
+              <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+          
+          </div>
+
                     <h1>Зорилго</h1>
                     <p>
                         Хөтөлбөрийн газрын үйл ажиллагааны хамрах хүрээ нь Дэлхийн байгаль хамгаалах сан (WWF)- гийн Дэлхийн хэмжээнд хэрэгжүүлэх зорилтуудтай нягт уялдсан байдаг. Бидний анхаарал хандуулж байгаа газар нутаг бол баруун дөрвөн аймгийг хамарсан Алтай-Соёны уулархаг нутаг болон зүүн гурван аймгийг хамарсан Амар мөрний экобүс нутаг юм. Эдгээр газрыг зайлшгүй хамгаалах шаардлагатай тэргүүн зэргийн газар нутаг хэмээн Дэлхийн байгаль хамгаалах сан (WWF)-гаас тодорхойлсон билээ.
                     </p>
                 </div>
+                <hr class="hr">
                  </div>
-            
-        
-
- 
-   
-      <!--body-->
-
-   
+                </div>
+                
+                <!--  FOOTER START -->
+                    
+                  <div class="footer">
+                    <div class="uk-container"> 
+                    <div class="inner-footer">
+                      <div class="footer-items">
+                        <h1>Animals</h1>
+                        <div class="footer-img">
+                            <img src="footer2.svg" alt="#">
+                        </div>
+                        
+                      </div>
+                  
+                  <!--  for quick links  -->
+                      <div class="footer-items">
+                        <h3 class="h3">Худасруу шилжих</h3>
+                        <div class="border1"></div> 
+                          <ul>
+                            <a href="#"><li>Нүүр</li></a>
+                            <a href="#"><li>Мэдээ</li></a>
+                            <a href="#"><li>Тусламж</li></a>
+                          </ul>
+                      </div>
+                    <!--  for contact us info -->
+                      <div class="footer-items">
+                        <h3 class="h3" >Холбоо барих</h3>
+                        <div class="border1"></div>
+                          <ul>
+                            <li><a href="#" uk-icon="receiver"></a></i>+976#####</li>
+                            <li><a href="#" uk-icon="mail"></a></i>Animals@gmail.com</li>
+                          </ul> 
+                        
+                  <!--   for social links -->
+                          <div class="footer-icon">
+                            <li><a href="#"  ><img src="icon/fb.svg" alt=""></a></li>
+                            <li><a href="#"  ><img src="icon/inst.svg" alt=""></a></li>
+                            <li> <a href="#" ><img src="icon/mail.svg" alt=""></a></li>
+                          </div> 
+                      </div>
+                    </div>
+                    
+                  <!--   Footer Bottom start  -->
+                    <div class="footer-bottom">
+                      <h3 style="color: white;">Copyright &copy; Animals 2022.</h3>
+                    </div>
+                  </div>
+                  </div>
+                    
+               
+   <script src="js/script.js"></script>
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.js"></script>
 </body>
